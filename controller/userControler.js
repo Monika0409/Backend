@@ -3,8 +3,7 @@ exports.home = (req, res) => {
     res.send('Hello world!');
 }
 
-exports.createUser = async(req, res) => {          // for write in database
-    // extract info
+exports.createUser = async(req, res) => {          
 
     try { 
         const {name, email} = req.body
